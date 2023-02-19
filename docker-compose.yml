@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  my-ubuntu:
+    build: .
+    volumes:
+      - ./cont:/root
+    tty: true
+
+volumes:
+  cont:
