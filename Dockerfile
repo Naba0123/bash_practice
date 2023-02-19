@@ -9,7 +9,7 @@ RUN apt update && apt install -y locales && rm -rf /var/lib/apt/lists/* \
 ENV LANG ja_JP.utf8
 
 # man
-RUN apt update && apt install -y manpages-ja manpages-ja-dev language-pack-ja
+RUN apt update && apt install -y manpages-ja manpages-ja-dev language-pack-ja man
 RUN update-locale LANG=ja_JP.UTF-8
 
 WORKDIR /root
