@@ -12,4 +12,7 @@ ENV LANG ja_JP.utf8
 RUN apt update && apt install -y manpages-ja manpages-ja-dev language-pack-ja man
 RUN update-locale LANG=ja_JP.UTF-8
 
+# other
+RUN apt install -y less
+
 WORKDIR /root
