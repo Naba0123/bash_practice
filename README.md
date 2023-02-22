@@ -1,5 +1,5 @@
 # Bash Practice
 
 ```bash
-$ make up
+$ make run
 ```
