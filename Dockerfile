@@ -13,6 +13,6 @@ RUN apt update && apt install -y manpages-ja manpages-ja-dev language-pack-ja ma
 RUN update-locale LANG=ja_JP.UTF-8
 
 # other
-RUN apt install -y less gawk
+RUN apt install -y less gawk tree git parallel
 
 WORKDIR /root
